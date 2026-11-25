@@ -1,0 +1,35 @@
+{
+  "dataset": "MNIST, original 60,000/10,000 split",
+  "input_checksums": {
+    "train-images-idx3-ubyte.gz": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609",
+    "train-labels-idx1-ubyte.gz": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c",
+    "t10k-images-idx3-ubyte.gz": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6",
+    "t10k-labels-idx1-ubyte.gz": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6"
+  },
+  "features": "7x7 nonoverlapping 4x4 arithmetic means from 28x28 8-bit input",
+  "train_odd": 30508,
+  "test_odd": 5074,
+  "preprocessing_and_gram_seconds": 0.028535749996080995,
+  "methods": [
+    "ISTA",
+    "FISTA",
+    "Restart-FISTA",
+    "CD",
+    "Restart+CD"
+  ],
+  "tolerance": 1e-08,
+  "timing_repetitions": 7,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "macOS-15.7.5-arm64-arm-64bit",
+  "blas": {
+    "name": "accelerate",
+    "found": true,
+    "version": "unknown",
+    "detection method": "system",
+    "include directory": "unknown",
+    "lib directory": "unknown",
+    "openblas configuration": "unknown",
+    "pc file directory": "unknown"
+  }
+}

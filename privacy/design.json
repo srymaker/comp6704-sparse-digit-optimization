@@ -1,0 +1,20 @@
+{
+  "n_train": 60000,
+  "n_test": 10000,
+  "pixels": 49,
+  "query_dimension": 50,
+  "max_training_feature_l1": 207.7270853351951,
+  "label_replacement_l1": 0.006957569511173171,
+  "measured_max_row_flip_l1": 0.006957569511173179,
+  "lambda_absolute": 0.06,
+  "kkt_tolerance": 1e-09,
+  "max_observed_kkt": 9.836658571016343e-10,
+  "epsilon_values": [
+    0.5,
+    2.0,
+    8.0,
+    0.05
+  ],
+  "draws_per_epsilon": 30,
+  "simulation_root_entropy": 67042026
+}

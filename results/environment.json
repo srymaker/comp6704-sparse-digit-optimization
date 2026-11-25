@@ -1,0 +1,23 @@
+{
+  "platform": "macOS-15.7.5-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "timing_repetitions": 7,
+  "split_seeds": [
+    11,
+    29,
+    47
+  ],
+  "tolerance": 1e-08,
+  "blas": {
+    "name": "accelerate",
+    "found": true,
+    "version": "unknown",
+    "detection method": "system",
+    "include directory": "unknown",
+    "lib directory": "unknown",
+    "openblas configuration": "unknown",
+    "pc file directory": "unknown"
+  }
+}
